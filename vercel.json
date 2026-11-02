@@ -1,0 +1,11 @@
+{
+  "functions": {
+    "api/webhook.js": {
+      "maxDuration": 30
+    }
+  },
+  "env": {
+    "BOT_TOKEN": "@BOT_TOKEN",
+    "ADMIN_USERS": "TheDevilOfAntarctica"
+  }
+}

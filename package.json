@@ -1,0 +1,19 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot with daily picks, multiple queues, and enrollment management",
+  "main": "api/webhook.js",
+  "scripts": {
+    "dev": "node api/webhook.js",
+    "build": "echo 'No build required'",
+    "start": "node api/webhook.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "uuid": "^9.0.1",
+    "redis": "^4.5.1"
+  },
+  "author": "",
+  "license": "MIT"
+}
